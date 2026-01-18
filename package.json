@@ -1,0 +1,12 @@
+{
+  "name": "my-sales-book-kaios",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build-zip.js",
+    "dev": "npx http-server app -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "archiver": "^6.0.2",
+    "http-server": "^14.1.1"
+  }
+}
