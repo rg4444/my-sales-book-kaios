@@ -1,0 +1,20 @@
+{
+  "name": "My Sales Book",
+  "description": "Offline cash ledger for micro-merchants: sales, expenses, profit, informal credit, SMS reminders, SMS backup.",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/icon_56.svg",
+    "112": "/assets/icon_112.svg"
+  },
+  "developer": {
+    "name": "Example Org",
+    "url": "https://example.com"
+  },
+  "type": "web",
+  "default_locale": "en",
+  "permissions": {
+    "sms": {
+      "description": "Send reminder and backup SMS messages"
+    }
+  }
+}
